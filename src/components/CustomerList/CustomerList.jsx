@@ -29,7 +29,9 @@ function CustomerList({ customers, filteredCustomers, setFilteredCustomers }) {
 
   function handleFilter() {
     const customerList = filterCustomers(customers, text);
+    console.log(customerList)
     setFilteredCustomers(customerList);
+    setSortedCustomers(customerList);
   }
 
   function handleChangeText(evt) {
