@@ -1,0 +1,53 @@
+.customer {
+  display: grid;
+  grid-template-columns: 50px repeat(4, 1fr);
+  column-gap: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+  height: 30px;
+}
+
+.customer:nth-child(2n) {
+  background: rgba(244, 247, 252, 0.75);
+}
+
+.customer__item {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #464F60;
+}
+
+.customer__item_big {
+  font-weight: 500;
+  color: #171C26;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+}
+
+.customer__item_right {
+  justify-self: end;
+}
+
+.customer__item_bg {
+  padding: 1px 10px;
+  border-radius: 10px;
+}
+
+.customer__item_green {
+  background: #E1FCEF;
+  color: #14804A;
+}
+
+.customer__item_gray {
+  color: #5A6376;
+  background: #E9EDF5;
+}
+
+.customer__item_red {
+  color: #D12953;
+  background: #FAF0F3;
+}

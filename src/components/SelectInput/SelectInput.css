@@ -1,0 +1,23 @@
+.select {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.select__text {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #687182;
+}
+
+.select__input {
+  background: none;
+  border: none;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #687182;
+}

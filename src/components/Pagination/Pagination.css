@@ -1,0 +1,20 @@
+.paginator__nav {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #687182;
+  padding: 0 10px;
+}
+
+.paginator__arrow {
+  width: 24px;
+  height: 24px;
+  gap: 10px;
+  border-radius: 6px;
+  border: none;
+  padding: 2px 4px;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0px 0px 4px rgba(54, 54, 54, 0.4);
+}
